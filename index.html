@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de Cadastro</b></legend>
+                <br><br>
+                <div class="InputBox">
+                    <input type="text" name="nome" id="nome" class="InputUser" required>
+                    <label for="nome">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="InputBox">
+                    <input type="email" name="Email" id="Email" class="InputUser" required>
+                    <label for="nome">Email</label>
+                </div>
+                <br><br>
+                <p>Dados do endereço</p>
+    
+                <b>Residência</b>
+                <input type="radio" id="Casa" nome="Tipo" value="Casa" required>
+                <label for="Casa">Casa</label>
+                <input type="radio" id="Predio" nome="Tipo" value="Predio" required>
+                <label for="Predio">Prédio</label>
+
+                <br><br>
+                <div class="InputBox">
+                    <label for="Data_nascimento"><b>Data de Nacimento</b></label>
+                    <input type="date" name="Data de Nacimento" id="Data_nascimento" class="InputUser" required>
+                    
+                </div>
+                <button style="background-color: green">Salvar informações</button>
+                <button style="background-color: red">Limpar</button>
+
+    
+               
+                
+            </fieldset>
+
+        </form>
+    </div>
+    
+</body>
+</html>
